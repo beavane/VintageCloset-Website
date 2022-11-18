@@ -1,0 +1,124 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0.05em;
+
+}
+body{
+	overflow-y: hidden;
+}
+.wrapper{
+	width: 85%;
+	margin: auto;
+
+}
+header {
+	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/lookbook6.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	height: 100vh;
+}
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 2.5%;
+}
+.nav-area li{
+	display: inline-block;
+
+}
+.nav-area li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:poppins;
+	font-size: 16px;
+	font-family: "Trebuchet MS";
+	letter-spacing: 0.03em;
+}
+.nav-area li a:hover{
+	color: #5e5a59;
+	transition: .7s;
+}
+.logo img{
+	width: 15%;
+	float: left;
+	height: auto;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+.welcome-text{
+	position: absolute;
+	margin: 20% 30%;
+	text-align: center;
+
+}
+.welcome-text h1{
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 240%;
+	font-family: "Trebuchet MS";
+	letter-spacing: 0.5em;
+	text-shadow: 2px 2px #ff0000;
+}
+.shop-text a{
+	border: 1px solid #fff;
+	padding: 10px 25px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	margin-top: 10px;
+	display: inline-block;
+	color: #fff;
+	font-family: "Luna";
+}
+.welcome-text a:hover{
+	background: #fff;
+	color: black;
+	transition: .7s;
+
+}
+#slider {
+    margin-right: 10%;
+    height: 78%;
+    width:61%;
+    overflow:hidden;
+
+}
+.slide {
+	margin-top: 17%;
+    height:350%;
+    float:left;
+    text-align:center;
+	line-height:8em;
+
+}
+.selection{
+	margin-left: 30%;
+	margin-right: 28%;
+	list-style: none;
+	margin-top: 1%;
+}
+.selection li{
+	display: inline-block;
+}
+.selection li a{
+	color: #000;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:poppins;
+	font-size: 16px;
+	font-family: "Trebuchet MS";
+	letter-spacing: 0.03em;
+	text-shadow: 1px 1px #fff;
+}
+.selection li a:hover{
+	color: #ff0000;
+	transition: .7s;
+
+}

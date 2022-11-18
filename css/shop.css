@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>WEBPAGE</title>
+	<link rel="stylesheet" type="text/css" href="">
+</head>
+<body>
+	<nav>
+		<div class="logo">
+			<img src="#">
+		</div>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Coffee</a></li>
+			<li><a href="#">Food</a></li>
+			<li><a href="#">Shop</a></li>
+			<li><a href="#">About Us</a></li>
+		</ul>
+
+	</nav>
+    <section class="sec1"></section>
+    <section class="sec2"></section>
+    <section class="sec3"></section>
+    <section class="sec4"></section>
+    <section class="sec5"></section>
+
+
+
+</body>
+</html>

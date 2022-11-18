@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vintage Closet | Best Clothing Collection</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <header>
+      <div class="logo">
+    			<a href="index.html"><img src="images/vintagecloset.png" alt=""></a>
+    		</div>
+    	<div class="wrapper">
+    		
+    		    <ul class="nav-area">
+    			    <li><a style="color: #5e5a59;" href="index.html">Home</a></li>
+    			    <li><a href="pages/shop.html">Shop Now</a></li>
+    			    <li><a href="pages/about.html">About Us</a></li>
+    			    <li><a href="pages/contact.html">Contact</a></li>
+                </ul>
+    		   
+    	   </div>
+    	   </div>
+    	  <div class="welcome-text">
+    	  	    <h1> &nbsp October sale</h1>
+    	      
+
+    	  </div>
+
+     </div>
+       
+      </style>
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+       <script>
+          $(document).ready(function () {
+           //you can set this, as long as it's not greater than the slides length
+           var show = 3;
+           var w = $('#slider').width() / show;
+           var l = $('.slide').length;
+    
+    $('.slide').width(w);
+    $('#slide-container').width(w * l)
+    
+    function slider() {
+        $('.slide:first-child').animate({
+            marginLeft: -w
+        }, 'slow', function () {
+            $(this).appendTo($(this).parent()).css({marginLeft: 0});
+        });
+    }
+    var timer = setInterval(slider, 1800);
+    
+    $('#slider').hover(function(){
+        clearInterval(timer);
+    },function(){
+        timer = setInterval(slider, 2000);
+    });
+});
+</script>
+
+
+<div id="slider">
+    <div id="slide-container">
+        <div class="slide"><img src="images/slide1.jpg" height="80%" width="100%"></div>
+        <div class="slide"><img src="images/slide3.jpg" height="80%" width="100%"></div>
+        <div class="slide"><img src="images/slide4.jpg" height="80%" width="100%"></div>
+        <div class="slide"><img src="images/slide6.jpg" height="80%" width="100%"></div>
+        <div class="slide"><img src="images/slide5.jpg" height="80%" width="100%"></div>
+        <div class="slide"><img src="images/slide2.jpg" height="80%" width="100%"></div>
+    </div>
+</div>
+
+                 <ul class="selection">
+                 	<li><a href="pages/accessories.html">Accessories</a></li>
+                 	<li><a href="pages/shop.html">New Arrivals</a></li>
+    			    <li><a href="pages/bt.html">Tops & Bottoms</a></li>
+    			    <li><a href="pages/dress.html">Dress</a></li>
+    			    <li><a href="pages/shoes.html">Shoes</a></li>
+                </ul>
+</header>
+ 
+
+</body>
+</html>

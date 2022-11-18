@@ -1,0 +1,169 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body,html{
+	align-items: center;
+	justify-content: center;
+	background-color: #f7f3f2;
+	width: 100%;
+	height: 100%;
+	background-color: #f0f0f0;
+}
+.wrapper{
+	width: 1300px;
+	margin: auto;
+
+}
+header {
+	background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url(../images/bag4.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	height: 60vh;
+}
+.nav-area{
+	float: right;
+	list-style: none;
+	margin-top: 2.5%;
+}
+.nav-area li{
+	display: inline-block;
+}
+.nav-area li a{
+	color: #fff;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:poppins;
+	font-size: 16px;
+	font-family: "Trebuchet MS";
+	letter-spacing: 0.01em;
+}
+.nav-area li a:hover{
+	color: #5e5a59;
+	transition: .7s;
+}
+.welcome-text{
+	position: absolute;
+	width: 60%;
+	height: 30%;
+	margin: 16% 20%;
+	text-align: center;
+}
+.welcome-text h1{
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 50px;
+	font-family: "Trebuchet MS";
+	letter-spacing: 0.5em;
+}
+.logo img{
+	width: 15%;
+	float: left;
+	height: auto;
+	margin-top: 1%;
+	margin-left: 5%;
+}
+hr{
+	border: 2%;
+	background-color: black;
+}
+.slide {
+	margin-top: 17%;
+    height:350%;
+    float:left;
+    text-align:center;
+	line-height:8em;
+
+}
+.selection{
+	margin-left: 30%;
+	margin-right: 20%;
+	list-style: none;
+	margin-top: 1%;
+}
+.selection li{
+	display: inline-block;
+}
+.selection li a{
+	color: #615c5c;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:poppins;
+	font-size: 14px;
+	font-family: "Trebuchet MS";
+	letter-spacing: 0.05em;
+}
+.selection li a:hover{
+	color: #000;
+	transition: .7s;
+}
+table{
+	margin-top: 1%;
+	margin-left: 3%;
+	margin-bottom: 5%;
+}
+button{
+	background: none;
+	color: black;
+	width: 50%;
+	height: 80%;
+	border: 1px solid black;
+	font-size: 80%;
+	transition: .6s;
+}
+button:hover{
+	background: #f794a5;
+	color: #fff;
+	transition: .7s;
+}
+footer{
+	font-family: sans-serif;
+	background-color: #e6e6e6;
+	border-top: 13px solid #f794a5;
+	color: black;
+	height: 160px;
+	font-size: 13px;
+
+}
+footer img{
+    float: left;
+    margin-top: 2%;
+    margin-left: 8%;
+
+}
+.container{
+width: 900px;
+margin-left: auto;
+margin-right: auto;
+}
+.container .right{
+	width: 400px;
+	float: right;
+	margin-top: 1.5%;
+	margin-left: 10%;
+}
+.about{
+	width: 900px;
+}
+.about .follow{
+	float: right;
+	margin-left: 10%;
+	margin-bottom: 100%;
+}
+h5{
+	font-size: 120%;
+	color: #f794a5;
+	text-shadow: 1px 1px black;
+}
+blockquote{
+	color: #615c5c;
+}
+blockquote:hover{
+	color: #000;
+	transition: .6s;
+}
